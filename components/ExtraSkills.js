@@ -7,8 +7,9 @@ import EvilIcons from '@expo/vector-icons/EvilIcons';
 function ExtraSkills() {
   return (
     <View style={styles.main}>
-        <Text style={styles.title}>Extra Skills</Text>
+      
       <View style={styles.container}>
+        <Text style={styles.title}>Extra Skills</Text>
 
 <Text style={styles.text}><Entypo name="rocket" size={24} color="white" />    Bootstrap, Tailwind</Text>
   <Text style={styles.text}><FontAwesome name="diamond" size={24} color="white" />    React Native</Text>
@@ -36,6 +37,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 15,
+    paddingHorizontal: 20,
     textAlign: "center"
       },
 
@@ -45,6 +47,7 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         width: "90%",
         alignSelf: "center",
+        marginTop: 20
       },text :{
         color: 'white',
         marginVertical: 5,
