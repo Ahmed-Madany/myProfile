@@ -79,7 +79,6 @@ function Info() {
 
             <View style={styles.row}>
 
-                {/* العمود الأول: العناوين */}
                 <View>
                     <Text style={styles.label}>Age:</Text>
                     <Text style={styles.label}>Residence:</Text>
@@ -88,7 +87,7 @@ function Info() {
                 </View>
 
                 <View style={styles.Col}>
-                    <Text style={styles.value}>23</Text>
+                    <Text style={styles.value}>27</Text>
                     <Text style={styles.value}>BD</Text>
                     <Text style={styles.value}>Available</Text>
                     <Text style={styles.value}>Assiut, Egypt</Text>
